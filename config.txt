@@ -1,0 +1,11 @@
+[host:port]
+ldap.fit.vutbr.cz:389
+[base]
+dc=fit,dc=vutbr,dc=cz
+[depth]
+one
+[filter]
+uid=*%s*
+[result]
+uid cn
+
