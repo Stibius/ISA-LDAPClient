@@ -8,7 +8,7 @@ Vašim úkolem je nastudovat si protokol LDAP, který zasílá data ve standardu
  
 Vaše aplikace by měla minimálně implementovat navázání spojení se serverem (bindRequest), zaslání dotazu (searchRequest) a korektně se od serveru odhlásit (unbindRequest). Veškerá podstatná nastavení aplikace (host, port, filtr, hloubka, atributy výsledků vyhledání) budou uložené v externím plaintextovém souboru s předem danou stukturou. Aplikace nemusí řešit autentizaci.
  
-Vaše aplikace by měla být POUŽITELNÁ a SMYSLUPLNÁ využívající BSD sokety a umožňující během jednoho svého běhu položit i více dotazů na LDAP server, jejichž výsledky pak INTUITIVNĚ interpretuje uživateli.
+Vaše aplikace by měla být POUŽITELNÁ a SMYSLUPLNÁ využívající BSD sockety a umožňující během jednoho svého běhu položit i více dotazů na LDAP server, jejichž výsledky pak INTUITIVNĚ interpretuje uživateli.
  
 **Závazná sruktura souboru s nastavením:**
 
